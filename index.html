@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Backpackvirtual</title>
+    <link rel="shortcut icon" href="img/mochila.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <header class="container-fluid" id="top-container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-6 text-xs-center text-sm-left">
+          <h1>Backpackvirtual</h1>
+        </div>
+        <div class="col-xs-12 col-sm-6 text-xs-center text-sm-right" id="just-container">
+          <a href="#justificacion-container" type="button" class="btn btn-info">Justificación</a>
+        </div>
+      </div>
+    </header>
+    <section class="container" id="frame">
+      <section class="hidden-sm-down" id="centrado">
+
+      </section>
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 text-xs-center text-sm-left">
+          <br class="hidden-sm-down">
+          <br class="hidden-sm-down">
+          <img src="img/mochila.png" alt="mochila">
+        </div>
+        <div class="col-xs-12 col-sm-8 text-xs-center" id="gestion-container">
+          <div class="row">
+            <button type="button" class="col-xs-12 col-sm-6 btn btn-success " id="nuevaPregunta" onclick="nuevaPregunta()">Nueva pregunta</button>
+
+            <h2 id="puntaje" class="col-xs-12 col-sm-5">Tu puntaje es:</h2>
+          </div>
+          <br>
+          <br>
+          <div id="preguntas-container">
+            <div class="card card-outline-info card-info mb-3 text-center">
+              <div class="card-block" id="card-pregunta">
+                <blockquote class="card-blockquote">
+                  <p id="pregunta"></p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="" id="respuestas-container">
+            <div class="list-group" id="respuestas1">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    <section class="container" id="justificacion-container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="card">
+            <div class="card-block">
+              <h4 class="card-title">Justificación</h4>
+              <p class="card-text">La idea principal es potenciar los conocimientos, destreza y habilidad básicas que permitan a la población de la localidad de Tunjuelito comprender la improtacia de conceptos clave como el ahorro. Los ingresos, el presupuesto personal, el coste de los productos, la calidad de vida o el consumo responsabl. Una forma es a tráves de la adquisición de infromcación y conceptos básicos, para así poder transmitir una buena educación a los pres adolescentes.</p>
+              <p class="card-text">Desarrollo variable población con los j´venes que vamos a trabajar son los estudiantes de los colegios de 15 a 20 años, ya que vemos que a esta edad los estudiantes pueden endender y comprender más rápido aquellos conceptos los cuales vamos a tratar y  que ellos pueden implementar lo adquirido en sus vidas contidianas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12  text-xs-center text-sm-right" id="just-container">
+        <a href="#top-container" type="button" class="btn btn-info">Ir al juego</a>
+      </div>
+    </div>
+    </section>
+    <canvas id="canvas" width="300" height="300"></canvas>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

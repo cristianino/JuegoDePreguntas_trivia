@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Fresca|Oxygen');
+body{
+  background-color: #d16125;
+  font-family: 'Fresca', sans-serif;
+}
+header{
+  background-color: #494644;
+}
+header h1{
+  margin-top: 8px;
+  color: #fffdfc;
+}
+/*identificadores*/
+#frame{
+  min-height: 80%;
+  height: auto;
+}
+#gestion-container{
+  border-radius: 5px;
+  background-color: rgba(254, 202, 7, .6);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#preguntas-container{
+  font-family: 'Oxygen', sans-serif;
+}
+#just-container{
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+#centrado{
+  height: 150px;
+  background-color: #d16125;
+}
+#card-pregunta{
+  background-color: #1ba7e2;
+}
+#nuevaPregunta{
+  margin-left: 10px;
+}
+#puntaje{
+  padding-left: 90px;
+  padding-top: 8px;
+  color: #fffdfc;
+}
+/*Clases*/
